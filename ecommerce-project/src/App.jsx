@@ -4,6 +4,9 @@ import{CheckoutPage} from './pages/CheckoutPage.jsx'
 
 import './App.css'
 import HomePage from "./pages/HomePage.jsx"
+import {OrdersPage} from './pages/OrdersPage';
+
+import {Tracking} from './pages/Tracking';
 
 
 function App() {
@@ -13,6 +16,8 @@ function App() {
     <Routes>
      <Route index element={<HomePage/>} />
      <Route path="checkout" element={<CheckoutPage/>} />
+     <Route path="orders" element={<OrdersPage/>}/>
+     <Route path="tracking" element={<Tracking/>}/>
     </Routes>
       
   
